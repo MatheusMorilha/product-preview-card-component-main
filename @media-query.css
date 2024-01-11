@@ -1,0 +1,175 @@
+@media (max-width: 1000px){
+    .container{
+        width: 710px;
+        height: 650px;
+    }
+
+    .title>p{
+        font-size: 15px;
+       
+    }
+
+    .name>h2{
+        font-size: 45px
+    }
+
+    .descProduct>p{
+        font-size: 20px;
+    
+    }
+
+    .price>h3{
+        font-size: 30px;
+    }
+
+    .price>p{
+     
+    }
+}
+
+@media (max-width: 810px){
+    .container{
+        width: 610px;
+        height: 590px;
+    }
+
+    .title>p{
+        font-size: 12px;
+       
+    }
+
+    .name>h2{
+        font-size: 35px
+    }
+
+    .descProduct>p{
+        font-size: 15px;
+    
+    }
+
+    .price>h3{
+        font-size: 30px;
+    }
+
+    .price>p{
+     
+    }
+}
+
+@media (max-width: 650px){
+
+    body{
+        padding: 30vh 0vh 30vh 0vh;
+    }
+
+    .container{
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+    }
+
+    .image{
+        width: 100%;
+        border-radius: 10px 0px 10px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    .image>img{
+        height: 70vh;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .title>p{
+        font-size: 17px;
+    }
+
+    .name>h2{
+        font-size: 49px;
+      
+    }
+
+    .desc{
+        width: 100%;
+        row-gap: 15px;
+    }
+
+    .descProduct>p{
+        font-size: 20px;
+        
+    }
+
+    .price>h3{
+        font-size: 40px;
+    }
+    
+    .price>p{
+        font-size: 17px;
+    }
+
+    .button{
+        width: 80%;
+        height: 50px;
+    }
+
+    @media (max-width: 420px){
+
+        body{
+            padding: 23vh 0vh 23vh 0vh;
+        }
+
+        .container{
+            flex-direction: column;
+            width: 90%;
+            height: auto;
+        }
+    
+        .image{
+            width: 100%;
+            border-radius: 10px 0px 10px 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        
+        }
+        
+        .image>img{
+            height: 60vh;
+            border-radius: 10px 10px 0px 0px;
+        }
+    
+        .title>p{
+            font-size: 14px;
+        }
+    
+        .name>h2{
+            font-size: 38px;
+          
+        }
+    
+        .desc{
+            width: 100%;
+            row-gap: 15px;
+        }
+    
+        .descProduct>p{
+            font-size: 16px;
+            
+        }
+    
+        .price>h3{
+            font-size: 35px;
+        }
+        
+        .price>p{
+            font-size: 14px;
+        }
+    
+        .button{
+            width: 80%;
+            height: 50px;
+        }
+    }
+}
